@@ -8,7 +8,7 @@ You'll need to use the [Day.js](https://day.js.org/en/) library to work with dat
 
 ## User Story
 
-```md
+
 AS A project team member with multiple tasks to organize
 I WANT a task board 
 SO THAT I can add individual project tasks, manage their state of progress and track overall project progress accordingly
@@ -16,7 +16,6 @@ SO THAT I can add individual project tasks, manage their state of progress and t
 
 ## Acceptance Criteria
 
-```md
 GIVEN a task board to manage a project
 WHEN I open the task board
 THEN the list of project tasks is displayed in columns representing the task progress state (Not Yet Started, In Progress, Completed)
@@ -32,7 +31,7 @@ WHEN I click the delete button for a task
 THEN the task is removed from the task board and will not be added back after refreshing
 WHEN I refresh the page
 THEN the saved tasks persist
-```
+
 
 The following animation demonstrates the application functionality:
 
