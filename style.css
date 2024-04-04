@@ -1,0 +1,29 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+.swim-lanes {
+  min-height: 60vh;
+}
+.task-card {
+  margin: 0 auto;
+  background-color: white; /* Default background color */
+}
+.task-card:hover {
+  cursor: grab;
+}
+.task-card.task-overdue {
+  background-color: red; /* Color for overdue tasks */
+}
+.task-card.task-nearing-deadline {
+  background-color: yellow; /* Color for tasks nearing the deadline */
+}
+.task-card.done {
+  background-color: white; /* Color for completed tasks */
+}
+.lane {
+  min-height: 100px; /* Set a minimum height for the lane */
+}
+.dragging {
+  opacity: 0.5; /* Change opacity when dragging */
+}
